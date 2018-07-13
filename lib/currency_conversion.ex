@@ -5,12 +5,6 @@ defmodule CurrencyConversion do
 
   @doc """
   Converts BTC to USD using the Coinbase Get Historic Rates endpoint
-
-  ## Examples
-
-      iex> CurrencyConversion.btc_to_usd(100)
-      621090.5
-
   """
   def btc_to_usd(amount, precision \\ 2) do
     HTTPoison.start

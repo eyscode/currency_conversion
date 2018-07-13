@@ -2,7 +2,7 @@ defmodule CurrencyConversionTest do
   use ExUnit.Case
   doctest CurrencyConversion
 
-  test "greets the world" do
-    assert CurrencyConversion.hello() == :world
+  test "checks if btc_to_usd returns float" do
+    assert CurrencyConversion.btc_to_usd(100) |> is_float == true
   end
 end
