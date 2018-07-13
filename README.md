@@ -9,5 +9,8 @@ You need have Elixir lang installed.
 ```
 $ mix deps.get
 $ iex -S mix
-iex(1)> CurrencyConversion.btc_to_usd(213)
+iex(1)> CurrencyConversion.btc_to_usd(10)
+62100.0
+iex(1)> CurrencyConversion.usd_to_btc(62100)
+10.0
 ```
