@@ -1,10 +1,10 @@
 # CurrencyConversion
 
-Elixir Application that converts currencies using Coinbase API
+Elixir Application that converts currencies BTC, USD and RUB using Coinbase APi and CoinGecko API
 
 ## Usage
 
-You need have Elixir lang installed. 
+You need have Elixir lang installed in order to try it. 
 
 ```
 $ mix deps.get
